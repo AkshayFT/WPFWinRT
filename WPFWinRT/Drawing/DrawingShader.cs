@@ -23,7 +23,7 @@ public class DrawingShader: Shader
         SetVector3("color", new Vector3(1.0f, 0.0f, 0.0f));
         SetVector2("viewPortSize", new Vector2((float)this.Size.Width, (float)this.Size.Height));
 
-        _brushTexture = Texture.LoadFromFile("Drawing/brush.png");
+        _brushTexture = Texture.LoadFromFile("Assets/brush.png");
     }
 
 

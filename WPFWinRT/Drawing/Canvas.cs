@@ -65,7 +65,7 @@ public class Canvas : GameWindow
         ClearFrameBuffer(_finalRenderFrameBuffer, Color.Green);
 
         // Background texture
-        // _backgroundTexture = Texture.LoadFromFile("Drawing/container.png");
+        // _backgroundTexture = Texture.LoadFromFile("Assets/container.png");
 
         //Highlighter texture
         _highlighterTexture = Texture.CreateTexture(this.WindowSize.Width, this.WindowSize.Height);

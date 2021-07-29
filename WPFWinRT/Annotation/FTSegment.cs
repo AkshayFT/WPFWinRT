@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace WPFWinRT.Annotation
 {
-    class FTSegment
+    public class FTSegment
     {
         public PointF startPoint, endPoint;
         public float thickness;

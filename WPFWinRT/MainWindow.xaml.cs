@@ -20,6 +20,9 @@ using Windows.Storage.Streams;
 using Windows.Foundation;
 using OpenTK.Graphics;
 using System.Diagnostics;
+using OpenTK.Wpf;
+using OpenTK.Graphics.OpenGL;
+using OpenTK.Mathematics;
 
 namespace WPFWinRT
 {
@@ -49,7 +52,6 @@ namespace WPFWinRT
 
             slider.ValueChanged += OnSliderValueChanged;
         }
-
         private void OnStartWriting(object sender, RoutedEventArgs e)
         {
             Canvas game = new Canvas(1000, 800, "Noteshelf");

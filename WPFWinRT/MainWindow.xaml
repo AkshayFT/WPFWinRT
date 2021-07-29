@@ -10,6 +10,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto" MinWidth="90"/>
             <ColumnDefinition/>
+            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Slider Grid.Column="0" Orientation="Vertical" 
            HorizontalAlignment="Left" Minimum="1" x:Name="slider" Width="18"/>
